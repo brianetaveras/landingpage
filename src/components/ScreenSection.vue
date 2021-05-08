@@ -1,5 +1,5 @@
 <template>
-    <section class="container container-custom">
+    <section id="screenshots-section" class="container container-custom ">
 		<VueSlickCarousel :arrows="false" :dots="false" :autoplay="true" :slidesPerRow="1" :slidesToScroll="1" :slidesToShow="4" :responsive="respScreen" >
 			<div class="text-center" ><img src="../assets/thumbgallery-1.jpg" class="mx-auto img-fluid thumbnail" @click="openGallery(0)"  /></div>
 			<div class="text-center" ><img src="../assets/thumbgallery-2-2.jpg" class="mx-auto img-fluid thumbnail" @click="openGallery(1)"  /></div>
@@ -60,3 +60,9 @@ export default {
 	}
 }
 </script>
+
+<style>
+#screenshots-section{
+	margin: 30px auto;
+}
+</style>

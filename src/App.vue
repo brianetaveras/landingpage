@@ -4,8 +4,8 @@
     <MainSection id="home"></MainSection>
     <ScreenSection></ScreenSection>
     <ClassSection></ClassSection>
-    <section id="newsection" class="container container-custom backsectionslider pb-3">
-      <div style="min-height:300px; background: #b9aa98">
+    <section id="newsection" class="container container-custom backsectionslider">
+      <div style="min-height:300px; background: #b9aa98; padding: 10px;">
         <carousel-3d :autoplay="true" :width="450" :height="250" :autoplay-timeout="5000" :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'">
           <slide :index="0">
             <img src="./assets/slider/Active_Community.png" />
@@ -26,9 +26,9 @@
             <img src="./assets/slider/Weekly_Events.png" />
           </slide>
         </carousel-3d>
-      </div>
-      <div class="text-center" style="position:relative; top:-20px;" >
-        <a href="https://darkstory2d.com/download.php" target="__blank" class="btn myButtonT2">PLAY FREE NOW</a>
+        <div class="text-center" style="margin: 20px 0;">
+          <a href="https://darkstory2d.com/download.php" target="__blank" class="btn myButtonT2">PLAY FREE NOW</a>
+        </div>
       </div>
       <div class="p-2"></div>
       <h2 class="text-center position-relative" style="z-index:20;"><span style="background: #d8cab8a6;">Join our community</span></h2>
