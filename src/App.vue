@@ -35,10 +35,12 @@
       <div class="p-4"></div>
       <div class="row justify-content-center">
         <div class="col-sm-3 text-center">
-          <a href="https://discordapp.com/invite/2FDgFh3" target="__blank" class="btn myButtonT4">Join</a>
+          <a href="https://discordapp.com/invite/2FDgFh3" target="__blank" class="btn btn-block myButtonT4">Join Our Discord</a>
         </div>
-        <div class="col-sm-3 text-center">
-          <a href="https://darkstory2d.com/" target="__blank" class="btn myButtonT3">Visit web</a>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-3 text-center my-3">
+          <a href="https://darkstory2d.com/" target="__blank" class="btn btn-block myButtonT3">Visit our web</a>
         </div>
       </div>
       <div class="p-5"></div>
