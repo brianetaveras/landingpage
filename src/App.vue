@@ -155,6 +155,15 @@ main {
   background-repeat: no-repeat;
   background-position-x: 40%;
 }
+
+@media (max-width: 800px){
+
+  .backgroundmain{
+    background: none;
+    background-color: #d19774;
+
+  }
+}
 .backgroundmain::before {
   content: "";
   width: 98%;
